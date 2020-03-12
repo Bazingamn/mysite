@@ -1,0 +1,51 @@
+{% load staticfiles %}
+<!--<!DOCTYPE html>-->
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link href="{% static 'bootstrap/css/blog.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/grid.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/navbars.css' %}" rel="stylesheet">
+    <link href="{% static 'bootstrap/css/carousel.css' %}" rel="stylesheet">
+    <link href="{% static 'md_css/monokai.css' %}" rel="stylesheet">
+    <!--矢量图标-->
+    <link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    >
+</head>
+
+<body>
+    {% include 'header.html' %}
+    <div id="wrapper">
+        {% block content %} {% endblock content %}
+        <div id="push"></div>
+    </div>
+    {% include 'footer.html' %}
+    <script src="{% static 'jquery/jquery-3.4.1.js' %"></script>
+    <script src="{% static 'popper/popper-1.14.4.js' %"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %"></script>
+    <script src="{% static 'layer/layer.js' %}"></script>
+    {% block script %}{% endblock script %}
+    {% include 'back_to_top_func.html' %}
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        #wrapper {
+            min-height: 100%;
+            margin-bottom: -60px;
+        }
+        #footer,
+        #push {
+            height: 60px;
+        }
+    </style>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+{% load notifications_tags %}
+{% notifications_unread as unread_count %}
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="{% url 'article:homepage' %}">首页</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExample04">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'article:article_list' %}">文章列表</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'article:article_create' %}">发表文章</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-md-0">
+        {% if user.is_authenticated %}
+            <li class="nav-item dropdown">
+<!--                <a class="btn btn-outline-success mr-sm-2" href="#">{{ user.username }}</a>-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <!-- 消息通知,小红点 -->
+                    {% if unread_count %}
+                        <svg viewBox="0 0 8 8" width="8px" height="8px">
+                            <circle cx="4" cy="4" r="4" fill="#ff6b6b"></circle>
+                        </svg>
+                    {% endif %}
+                    {{ user.username }}
+                </a>
+                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                    <!-- 通知计数 -->
+                    <a class="dropdown-item" href="{% url 'notice:list' %}">通知
+                        {% if unread_count %}
+                        <span class="badge badge-danger">{{ unread_count }}</span>
+                        {% endif %}
+                    </a>
+                    <a class="dropdown-item" href="#" onclick="user_delete()">删除用户</a>
+<!--                    <a class="dropdown-item btn-sm" href="{% url 'userprofile:logout' %}">退出登录</a>-->
+<!--                    <a class="dropdown-item" href='{% url "userprofile:edit" user.id %}'>个人信息</a>-->
+                    <a class="dropdown-item" href="{% url 'userprofile:logout' %}">退出登录</a>
+                </div>
+            </li>
+        {% else %}
+            <a class="btn btn-outline-success mr-sm-2" href="{% url 'userprofile:login' %}">登录</a>
+        {% endif %}
+        <a class="btn btn-outline-success mr-sm-2" href="{% url 'userprofile:signup' %}">注册</a>
+        <input class="form-control mr-sm-2" type="text" placeholder="搜索" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+    </form>
+  </div>
+</nav>
+
+{% if user.is_authenticated %}
+    <form
+        style="display:none;"
+        id="user_delete"
+        action="{% url 'userprofile:delete' user.id %}"
+        method="POST"
+    >
+    {% csrf_token %}
+        <button type="submit">发送</button>
+    </form>
+    <script>
+        function user_delete() {
+            layer.open({
+                title: "确认删除",
+                content: "确认删除用户资料吗？",
+                yes: function(index, layero) {
+                    $('form#user_delete button').click();
+                    layer.close(index);
+                },
+            })
+        }
+    </script>
+{% endif %}
