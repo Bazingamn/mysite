@@ -58,7 +58,7 @@ class ArticlePost(models.Model):
         if self.avatar and not kwargs.get('update_fields'):
             image = Image.open(self.avatar)
             (x, y) = image.size
-            new_x = 400
+            new_x = 200
             new_y = int(new_x * (y / x))
             resized_image = image.resize((new_x, new_y), Image.ANTIALIAS)
             resized_image.save(self.avatar.path)

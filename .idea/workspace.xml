@@ -2,14 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f610be-eba9-4222-b1b2-37aaa587192a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/news/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article/20200313/Laeacco-Seaside-Wooden-View-Bridge-Platform-Scenic-Photography-Backgrou_U2XPzkf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article/20200313/apic14546.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article/20200313/th.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article/20200313/th_PdtuKPi.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article/20200313/th_kKBNpax.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article/20200313/v2-3b4fc7e3a1195a081d0259246c38debc_1200x500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article/20200315/2020_0313_15907a27p00q744ny0071c000s600e3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/article/20200315/2020_0313_7cdb30e4p00q7406l00evc000s600e3c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/migrations/0002_auto_20200313_1453.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/migrations/0003_news_digest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiders/163news.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiders/netease_domestic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiders/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/news/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/news/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article/myblog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myblog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/userprofile/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userprofile/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userprofile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +54,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Xy5OXu6ahQ6lSNkyMK3MjsM32M" />
@@ -41,17 +70,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="E:/Django-New-Web" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Django-New-Web-master/Django-New-Web-master" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Django-Myblog\mysite\templates" />
-      <recent name="E:\Django-Myblog\mysite\static\images" />
-      <recent name="E:\web开发\MyFirstBlog\mysite\userprofile\static" />
-      <recent name="E:\web开发\MyFirstBlog\mysite\userprofile\static\bootstrap\css" />
-      <recent name="E:\web开发\MyFirstBlog\mysite\article\templates\article" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Django-Myblog\mysite\static\jquery" />
       <recent name="E:\Django-Myblog\mysite\static\sticky_sidebar" />
@@ -59,6 +81,63 @@
       <recent name="E:\Django-Myblog\mysite\static\prism" />
       <recent name="E:\Django-Myblog\mysite\userprofile" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\mysite\templates" />
+      <recent name="E:\Django-Myblog\mysite\templates" />
+      <recent name="E:\Django-Myblog\mysite\static\images" />
+      <recent name="E:\web开发\MyFirstBlog\mysite\userprofile\static" />
+      <recent name="E:\web开发\MyFirstBlog\mysite\userprofile\static\bootstrap\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.163news">
+    <configuration name="163news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mysite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/163news.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mysite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.163news" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -94,18 +173,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="283" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582015081041" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1583918352971">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1583985944695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583918352971" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1583815401218">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583985944695" />
+    <state width="1259" height="376" key="GridCell.Tab.0.bottom" timestamp="1584285187620">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1583815401218" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1583815419183">
+    <state width="1259" height="376" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584285187620" />
+    <state width="1259" height="199" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1584081037420" />
+    <state width="1259" height="376" key="GridCell.Tab.0.center" timestamp="1584285187619">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583815419183" />
+    <state width="1259" height="376" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584285187619" />
+    <state width="1259" height="199" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1584081037420" />
+    <state width="1259" height="376" key="GridCell.Tab.0.left" timestamp="1584285187618">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="376" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584285187618" />
+    <state width="1259" height="199" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1584081037420" />
+    <state width="1259" height="376" key="GridCell.Tab.0.right" timestamp="1584285187620">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="376" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584285187620" />
+    <state width="1259" height="199" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1584081037420" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1583982004260">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1583982004260" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1584320796808">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584320796808" />
     <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582945446807">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

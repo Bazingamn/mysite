@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="container">
+  <main role="main" class="container">
+    <div class="row">
+      <div class="blog-main">
+        {% for ns in news %}
+        <div class="blog-post">
+          <h4 class="blog-post-title">
+            <a href="{% url 'news:news_detail' news.id %}"> {{ ns.title }} </a>
+          </h4>
+          <p class="blog-post-meta"> {{ ns.source }} | {{ ns.pub_time }} </p>
+          <p> {{ ns.digest }} </p>
+          <hr>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </main>
+</div>
+{% endblock content %}

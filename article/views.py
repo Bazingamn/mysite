@@ -13,8 +13,8 @@ from django.views.generic import ListView
 
 
 
-def Homepage(request):
-    return render(request, 'article/myblog.html')
+# def Homepage(request):
+#     return render(request, 'myblog.html')
 
 def aricle_list(request):
     # 从 url 中提取查询参数
@@ -48,7 +48,7 @@ def aricle_list(request):
     if order == 'total_views':
         article_list = article_list.order_by('-total_views')
 
-    paginator = Paginator(article_list, 3)
+    paginator = Paginator(article_list, 10)
     page = request.GET.get('page')
     articles = paginator.get_page(page)
 

@@ -62,16 +62,7 @@
             <!-- 栏目 -->
             {% if article.column %}
                 <button type="button"
-                    class="btn btn-sm mb-2
-                        {% if article.column.title == 'Django' %}
-                            btn-success
-                        {% elif article.column.title == 'Java' %}
-                            btn-danger
-                        {% elif article.column.title == 'HTML' %}
-                            btn-warning
-                        {% endif %}
-                    "
-                >
+                    class="btn btn-sm mb-2 btn-danger">
                     {{ article.column }}
                 </button>
             {% endif %}

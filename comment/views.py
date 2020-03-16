@@ -12,7 +12,6 @@ from django.contrib.auth.models import User
 @login_required(login_url='/userprofile/login/')
 def post_comment(request, article_id, parent_comment_id=None):
     article = get_object_or_404(ArticlePost, id=article_id)
-
     # 处理 POST 请求
     if request.method == 'POST':
         comment_form = CommentForm(request.POST)

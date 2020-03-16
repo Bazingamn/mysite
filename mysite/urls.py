@@ -21,13 +21,14 @@ import notifications.urls
 
 urlpatterns = [
 
-    path('', include('article.urls', namespace='article')),
+    path('article', include('article.urls', namespace='article')),
     path('admin/', admin.site.urls),
     path('userprofile/', include('userprofile.urls', namespace='userprofile')),
     path('comment/', include('comment.urls', namespace='comment')),
     path('password_reset/', include('password_reset.urls')),
     path('inbox/notifications/', include(notifications.urls, namespace='notifications')),
     path('notice/', include('notice.urls', namespace='notice')),
+    path('', include('news.urls', namespace='news')),
 ]
 
 #为上传图片配置url路径
