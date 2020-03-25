@@ -23,10 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'm+e0+zt)jm-+1qrgh7f=r!ei1%8%s4t$@gox407sgx*csx94v('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
+# 静态文件收集目录
+STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 
 # Application definition
 
@@ -135,7 +137,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    # os.path.join(os.path.dirname(__file__),"..",'static').replace('\\','/'),
     os.path.join(BASE_DIR, 'static'),
 ]
 

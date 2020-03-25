@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f610be-eba9-4222-b1b2-37aaa587192a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/article/20200313/Laeacco-Seaside-Wooden-View-Bridge-Platform-Scenic-Photography-Backgrou_U2XPzkf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/article/20200313/apic14546.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/article/20200313/th.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/article/20200313/th_PdtuKPi.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/article/20200313/th_kKBNpax.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/article/20200313/v2-3b4fc7e3a1195a081d0259246c38debc_1200x500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/article/20200315/2020_0313_15907a27p00q744ny0071c000s600e3c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/article/20200315/2020_0313_7cdb30e4p00q7406l00evc000s600e3c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/migrations/0002_auto_20200313_1453.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/migrations/0003_news_digest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spiders/163news.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spiders/netease_domestic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spiders/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/news/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/news/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/myblog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myblog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/userprofile/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userprofile/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userprofile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +35,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Django-New-Web-master/Django-New-Web-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python practice/examples" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -169,14 +134,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582945430288" />
+    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584519983994">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1584519983994" />
     <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1582015081041">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="283" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582015081041" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1583985944695">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1584572053159">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583985944695" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584572053159" />
     <state width="1259" height="376" key="GridCell.Tab.0.bottom" timestamp="1584285187620">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -201,10 +170,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1583982004260" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1584320796808">
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585101300163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584320796808" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585101300163" />
     <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582945446807">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
