@@ -27,9 +27,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['192.168.0.103']
 
-# 静态文件收集目录
-STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -139,7 +136,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
-
+# 静态文件收集目录
+STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 
 
 #媒体文件地址
