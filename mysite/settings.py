@@ -25,7 +25,7 @@ SECRET_KEY = 'm+e0+zt)jm-+1qrgh7f=r!ei1%8%s4t$@gox407sgx*csx94v('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['192.168.0.103']
 
 # 静态文件收集目录
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
@@ -140,18 +140,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
-# SMTP服务器，改为你的邮箱的smtp!
-EMAIL_HOST = 'smtp.qq.com'
-# 改为你自己的邮箱名！
-EMAIL_HOST_USER = '1804319795@qq.com'
-# 你的邮箱密码
-EMAIL_HOST_PASSWORD = 'ymvkxwtzdcexejah'
-# 发送邮件的端口
-EMAIL_PORT = 25
-# 是否使用 TLS
-EMAIL_USE_TLS = True
-# 默认的发件人
-DEFAULT_FROM_EMAIL = 'xxx的博客 <1804319795@qq.com>'
+
 
 #媒体文件地址
 MEDIA_URL = '/media/'
