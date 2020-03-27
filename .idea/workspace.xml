@@ -4,6 +4,7 @@
     <list default="true" id="61f610be-eba9-4222-b1b2-37aaa587192a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,10 +167,10 @@
     </state>
     <state width="1259" height="376" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584285187620" />
     <state width="1259" height="199" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1584081037420" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1583982004260">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1585209819667">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1583982004260" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585209819667" />
     <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585101300163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
